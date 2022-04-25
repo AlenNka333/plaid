@@ -28,6 +28,7 @@
 		33C0ABC928132C50005FB0D8 /* InvestmentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC828132C50005FB0D8 /* InvestmentError.swift */; };
 		33C0ABCB281469C5005FB0D8 /* PlaidAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */; };
 		33C0ABD1281470C7005FB0D8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABD0281470C7005FB0D8 /* API.swift */; };
+		33C0ABD92816BEBD005FB0D8 /* InvestmentDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABD82816BEBD005FB0D8 /* InvestmentDataFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		33C0ABC828132C50005FB0D8 /* InvestmentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentError.swift; sourceTree = "<group>"; };
 		33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAPIManager.swift; sourceTree = "<group>"; };
 		33C0ABD0281470C7005FB0D8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		33C0ABD82816BEBD005FB0D8 /* InvestmentDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentDataFormatter.swift; sourceTree = "<group>"; };
 		810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plaid.debug.xcconfig"; path = "Target Support Files/Pods-Plaid/Pods-Plaid.debug.xcconfig"; sourceTree = "<group>"; };
 		9C24A1597D7957692879D863 /* Pods_Plaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plaid.release.xcconfig"; path = "Target Support Files/Pods-Plaid/Pods-Plaid.release.xcconfig"; sourceTree = "<group>"; };
@@ -92,10 +94,10 @@
 		335F7C152811718A00E30A55 /* Plaid */ = {
 			isa = PBXGroup;
 			children = (
+				33C0ABD62816BE9C005FB0D8 /* Helpers */,
 				33C0ABCF281469FE005FB0D8 /* Controller */,
 				33C0ABCE281469F0005FB0D8 /* ViewModel */,
 				33C0ABCD281469D7005FB0D8 /* Resources */,
-				33C0ABCC281469CA005FB0D8 /* API */,
 				33C0ABAD28131BC1005FB0D8 /* Models */,
 				335F7C162811718A00E30A55 /* AppDelegate.swift */,
 			);
@@ -180,6 +182,23 @@
 				335F7C1A2811718A00E30A55 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		33C0ABD62816BE9C005FB0D8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABD72816BEAA005FB0D8 /* Formatter */,
+				33C0ABCC281469CA005FB0D8 /* API */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		33C0ABD72816BEAA005FB0D8 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABD82816BEBD005FB0D8 /* InvestmentDataFormatter.swift */,
+			);
+			path = Formatter;
 			sourceTree = "<group>";
 		};
 		847E28690A5C4930CAB69A2F /* Frameworks */ = {
@@ -322,6 +341,7 @@
 				33C0ABAF28131BD4005FB0D8 /* LinkTokenModel.swift in Sources */,
 				33C0ABC928132C50005FB0D8 /* InvestmentError.swift in Sources */,
 				33C0ABAA28131B03005FB0D8 /* ViewModel.swift in Sources */,
+				33C0ABD92816BEBD005FB0D8 /* InvestmentDataFormatter.swift in Sources */,
 				33C0ABC7281327A2005FB0D8 /* Security.swift in Sources */,
 				33C0ABBE28132480005FB0D8 /* AccountInfo.swift in Sources */,
 				33C0ABBC28132469005FB0D8 /* Accounts.swift in Sources */,

@@ -163,6 +163,7 @@ class ViewModel {
 
                 self?.investmentHoldings = data
                 print("Success")
+                InvestmentDataFormatter.formatData(data: data)
             }
         }
     }

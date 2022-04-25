@@ -1,0 +1,16 @@
+PODS:
+  - Plaid (2.5.1)
+
+DEPENDENCIES:
+  - Plaid
+
+SPEC REPOS:
+  trunk:
+    - Plaid
+
+SPEC CHECKSUMS:
+  Plaid: 6beadc0828cfd5396c5905931b9503493bbc139a
+
+PODFILE CHECKSUM: b73c79d6e0d4dbffebe22ac0c1e301cb61f9e843
+
+COCOAPODS: 1.11.3

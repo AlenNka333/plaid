@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FAE7325CA02767362181F93 /* Pods_Plaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C24A1597D7957692879D863 /* Pods_Plaid.framework */; };
+		335F7C172811718A00E30A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F7C162811718A00E30A55 /* AppDelegate.swift */; };
+		335F7C1B2811718A00E30A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F7C1A2811718A00E30A55 /* ViewController.swift */; };
+		335F7C202811718C00E30A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335F7C1F2811718C00E30A55 /* Assets.xcassets */; };
+		335F7C232811718C00E30A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335F7C212811718C00E30A55 /* LaunchScreen.storyboard */; };
+		33C0ABAA28131B03005FB0D8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABA928131B03005FB0D8 /* ViewModel.swift */; };
+		33C0ABAC28131B92005FB0D8 /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABAB28131B92005FB0D8 /* LinkModel.swift */; };
+		33C0ABAF28131BD4005FB0D8 /* LinkTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABAE28131BD4005FB0D8 /* LinkTokenModel.swift */; };
+		33C0ABB228131F90005FB0D8 /* Institution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABB128131F90005FB0D8 /* Institution.swift */; };
+		33C0ABB428131FEA005FB0D8 /* InstitutionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABB328131FEA005FB0D8 /* InstitutionInfo.swift */; };
+		33C0ABB7281322DC005FB0D8 /* PublicTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABB6281322DC005FB0D8 /* PublicTokenModel.swift */; };
+		33C0ABB928132398005FB0D8 /* AccessTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABB828132398005FB0D8 /* AccessTokenModel.swift */; };
+		33C0ABBC28132469005FB0D8 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABBB28132469005FB0D8 /* Accounts.swift */; };
+		33C0ABBE28132480005FB0D8 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABBD28132480005FB0D8 /* AccountInfo.swift */; };
+		33C0ABC1281324C2005FB0D8 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC0281324C2005FB0D8 /* Balance.swift */; };
+		33C0ABC328132572005FB0D8 /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC228132572005FB0D8 /* Holding.swift */; };
+		33C0ABC528132627005FB0D8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC428132627005FB0D8 /* Item.swift */; };
+		33C0ABC7281327A2005FB0D8 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC6281327A2005FB0D8 /* Security.swift */; };
+		33C0ABC928132C50005FB0D8 /* InvestmentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC828132C50005FB0D8 /* InvestmentError.swift */; };
+		33C0ABCB281469C5005FB0D8 /* PlaidAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */; };
+		33C0ABD1281470C7005FB0D8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABD0281470C7005FB0D8 /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		335F7C132811718A00E30A55 /* Plaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335F7C162811718A00E30A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		335F7C1A2811718A00E30A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		335F7C1F2811718C00E30A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335F7C222811718C00E30A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335F7C242811718C00E30A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335F7C2A281181A100E30A55 /* Plaid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Plaid.entitlements; sourceTree = "<group>"; };
+		33C0ABA928131B03005FB0D8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		33C0ABAB28131B92005FB0D8 /* LinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		33C0ABAE28131BD4005FB0D8 /* LinkTokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTokenModel.swift; sourceTree = "<group>"; };
+		33C0ABB128131F90005FB0D8 /* Institution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Institution.swift; sourceTree = "<group>"; };
+		33C0ABB328131FEA005FB0D8 /* InstitutionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionInfo.swift; sourceTree = "<group>"; };
+		33C0ABB6281322DC005FB0D8 /* PublicTokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicTokenModel.swift; sourceTree = "<group>"; };
+		33C0ABB828132398005FB0D8 /* AccessTokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenModel.swift; sourceTree = "<group>"; };
+		33C0ABBB28132469005FB0D8 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		33C0ABBD28132480005FB0D8 /* AccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		33C0ABC0281324C2005FB0D8 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		33C0ABC228132572005FB0D8 /* Holding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holding.swift; sourceTree = "<group>"; };
+		33C0ABC428132627005FB0D8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		33C0ABC6281327A2005FB0D8 /* Security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		33C0ABC828132C50005FB0D8 /* InvestmentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentError.swift; sourceTree = "<group>"; };
+		33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAPIManager.swift; sourceTree = "<group>"; };
+		33C0ABD0281470C7005FB0D8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plaid.debug.xcconfig"; path = "Target Support Files/Pods-Plaid/Pods-Plaid.debug.xcconfig"; sourceTree = "<group>"; };
+		9C24A1597D7957692879D863 /* Pods_Plaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plaid.release.xcconfig"; path = "Target Support Files/Pods-Plaid/Pods-Plaid.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335F7C102811718A00E30A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAE7325CA02767362181F93 /* Pods_Plaid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335F7C0A2811718A00E30A55 = {
+			isa = PBXGroup;
+			children = (
+				335F7C152811718A00E30A55 /* Plaid */,
+				335F7C142811718A00E30A55 /* Products */,
+				FE39A8BED3F0057D3FED74A3 /* Pods */,
+				847E28690A5C4930CAB69A2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		335F7C142811718A00E30A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335F7C132811718A00E30A55 /* Plaid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335F7C152811718A00E30A55 /* Plaid */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABCF281469FE005FB0D8 /* Controller */,
+				33C0ABCE281469F0005FB0D8 /* ViewModel */,
+				33C0ABCD281469D7005FB0D8 /* Resources */,
+				33C0ABCC281469CA005FB0D8 /* API */,
+				33C0ABAD28131BC1005FB0D8 /* Models */,
+				335F7C162811718A00E30A55 /* AppDelegate.swift */,
+			);
+			path = Plaid;
+			sourceTree = "<group>";
+		};
+		33C0ABAD28131BC1005FB0D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABB5281322C9005FB0D8 /* Tokens */,
+				33C0ABB028131F4F005FB0D8 /* Institution */,
+				33C0ABAB28131B92005FB0D8 /* LinkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33C0ABB028131F4F005FB0D8 /* Institution */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABBA2813245C005FB0D8 /* Accounts */,
+				33C0ABB128131F90005FB0D8 /* Institution.swift */,
+				33C0ABB328131FEA005FB0D8 /* InstitutionInfo.swift */,
+			);
+			path = Institution;
+			sourceTree = "<group>";
+		};
+		33C0ABB5281322C9005FB0D8 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABAE28131BD4005FB0D8 /* LinkTokenModel.swift */,
+				33C0ABB6281322DC005FB0D8 /* PublicTokenModel.swift */,
+				33C0ABB828132398005FB0D8 /* AccessTokenModel.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		33C0ABBA2813245C005FB0D8 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABBB28132469005FB0D8 /* Accounts.swift */,
+				33C0ABBD28132480005FB0D8 /* AccountInfo.swift */,
+				33C0ABC0281324C2005FB0D8 /* Balance.swift */,
+				33C0ABC228132572005FB0D8 /* Holding.swift */,
+				33C0ABC428132627005FB0D8 /* Item.swift */,
+				33C0ABC6281327A2005FB0D8 /* Security.swift */,
+				33C0ABC828132C50005FB0D8 /* InvestmentError.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		33C0ABCC281469CA005FB0D8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */,
+				33C0ABD0281470C7005FB0D8 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		33C0ABCD281469D7005FB0D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				335F7C242811718C00E30A55 /* Info.plist */,
+				335F7C212811718C00E30A55 /* LaunchScreen.storyboard */,
+				335F7C1F2811718C00E30A55 /* Assets.xcassets */,
+				335F7C2A281181A100E30A55 /* Plaid.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33C0ABCE281469F0005FB0D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33C0ABA928131B03005FB0D8 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33C0ABCF281469FE005FB0D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				335F7C1A2811718A00E30A55 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		847E28690A5C4930CAB69A2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C24A1597D7957692879D863 /* Pods_Plaid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE39A8BED3F0057D3FED74A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */,
+				C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335F7C122811718A00E30A55 /* Plaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335F7C272811718C00E30A55 /* Build configuration list for PBXNativeTarget "Plaid" */;
+			buildPhases = (
+				8D341F55DB63E1FBE9078B45 /* [CP] Check Pods Manifest.lock */,
+				335F7C0F2811718A00E30A55 /* Sources */,
+				335F7C102811718A00E30A55 /* Frameworks */,
+				335F7C112811718A00E30A55 /* Resources */,
+				D1DAAEE15408423F4A485067 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plaid;
+			productName = Plaid;
+			productReference = 335F7C132811718A00E30A55 /* Plaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335F7C0B2811718A00E30A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					335F7C122811718A00E30A55 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 335F7C0E2811718A00E30A55 /* Build configuration list for PBXProject "Plaid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335F7C0A2811718A00E30A55;
+			productRefGroup = 335F7C142811718A00E30A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335F7C122811718A00E30A55 /* Plaid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335F7C112811718A00E30A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335F7C232811718C00E30A55 /* LaunchScreen.storyboard in Resources */,
+				335F7C202811718C00E30A55 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D341F55DB63E1FBE9078B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plaid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DAAEE15408423F4A485067 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plaid/Pods-Plaid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Plaid/Pods-Plaid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plaid/Pods-Plaid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335F7C0F2811718A00E30A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C0ABB228131F90005FB0D8 /* Institution.swift in Sources */,
+				335F7C1B2811718A00E30A55 /* ViewController.swift in Sources */,
+				33C0ABB928132398005FB0D8 /* AccessTokenModel.swift in Sources */,
+				33C0ABB7281322DC005FB0D8 /* PublicTokenModel.swift in Sources */,
+				33C0ABC528132627005FB0D8 /* Item.swift in Sources */,
+				33C0ABAC28131B92005FB0D8 /* LinkModel.swift in Sources */,
+				33C0ABAF28131BD4005FB0D8 /* LinkTokenModel.swift in Sources */,
+				33C0ABC928132C50005FB0D8 /* InvestmentError.swift in Sources */,
+				33C0ABAA28131B03005FB0D8 /* ViewModel.swift in Sources */,
+				33C0ABC7281327A2005FB0D8 /* Security.swift in Sources */,
+				33C0ABBE28132480005FB0D8 /* AccountInfo.swift in Sources */,
+				33C0ABBC28132469005FB0D8 /* Accounts.swift in Sources */,
+				33C0ABC328132572005FB0D8 /* Holding.swift in Sources */,
+				33C0ABCB281469C5005FB0D8 /* PlaidAPIManager.swift in Sources */,
+				33C0ABB428131FEA005FB0D8 /* InstitutionInfo.swift in Sources */,
+				33C0ABC1281324C2005FB0D8 /* Balance.swift in Sources */,
+				33C0ABD1281470C7005FB0D8 /* API.swift in Sources */,
+				335F7C172811718A00E30A55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		335F7C212811718C00E30A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335F7C222811718C00E30A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335F7C252811718C00E30A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		335F7C262811718C00E30A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335F7C282811718C00E30A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Plaid/Plaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RB7NH47H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Plaid/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bn.software.Plaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335F7C292811718C00E30A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Plaid/Plaid.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RB7NH47H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Plaid/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bn.software.Plaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335F7C0E2811718A00E30A55 /* Build configuration list for PBXProject "Plaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335F7C252811718C00E30A55 /* Debug */,
+				335F7C262811718C00E30A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335F7C272811718C00E30A55 /* Build configuration list for PBXNativeTarget "Plaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335F7C282811718C00E30A55 /* Debug */,
+				335F7C292811718C00E30A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335F7C0B2811718A00E30A55 /* Project object */;
+}

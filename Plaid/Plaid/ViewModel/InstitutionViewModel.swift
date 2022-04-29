@@ -65,6 +65,7 @@ class InstitutionViewModel {
 
                 self?.session.investmentHoldings[data.item.institution_id ?? accessToken] = data
                 print("Success")
+                print(data)
                 self?.dataReceived?()
             }
         }

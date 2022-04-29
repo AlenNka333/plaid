@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         stack.alignment = .center
         stack.axis = .vertical
         stack.spacing = 10
-        stack.isHidden = true
+        stack.isHidden = viewModel?.session.publicToken.isEmpty ?? true
         stack.translatesAutoresizingMaskIntoConstraints = false
         return stack
     }()
@@ -97,8 +97,8 @@ class ViewController: UIViewController {
             self?.presentPlaidLinkUsingLinkToken(configuration: configuration)
         }
 
-        viewModel?.connectedToBank = { [weak self] result in
-            self?.stackView.isHidden = !result
+        viewModel?.connectedToBank = { [weak self] in
+            self?.stackView.isHidden = self?.viewModel?.session.publicToken.isEmpty ?? true
         }
     }
 }

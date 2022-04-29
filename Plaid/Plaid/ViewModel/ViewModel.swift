@@ -19,7 +19,7 @@ class ViewModel {
     private var robinhoodInfo: Institution?
 
     var configurationCreated: ((LinkTokenConfiguration?) -> Void)?
-    var connectedToBank: ((Bool) -> Void)?
+    var connectedToBank: (() -> Void)?
 
     init(manager: PlaidAPIManager, data: LinkModel, session: UserSession) {
         self.linkData = data
@@ -62,9 +62,9 @@ class ViewModel {
 
         var linkConfiguration = LinkTokenConfiguration(token: linkToken) { success in
             print("public-token: \(success.publicToken) metadata: \(success.metadata)")
-            self.connectedToBank?(true)
             self.session.publicToken.append(success.publicToken)
             self.session.metadata.append(success.metadata)
+            self.connectedToBank?()
         }
 
         linkConfiguration.onExit = { exit in
@@ -73,7 +73,7 @@ class ViewModel {
             } else {
                 print("exit with \(exit.metadata)")
             }
-            self.connectedToBank?(false)
+            self.connectedToBank?()
         }
 
         configurationCreated?(linkConfiguration)

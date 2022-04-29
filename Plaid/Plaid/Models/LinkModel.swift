@@ -16,7 +16,4 @@ struct LinkModel {
     let country_codes: [String] = ["US"]
     let language = "en"
     let account_subtypes = ["brokerage"]
-    let institutions = ["Robinhood"]
-    let testUserName = "custom_test_institutions"
-    let testPassword = "test1!Test"
 }

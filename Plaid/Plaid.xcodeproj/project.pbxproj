@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FAE7325CA02767362181F93 /* Pods_Plaid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C24A1597D7957692879D863 /* Pods_Plaid.framework */; };
+		3307E77D281862CF000E0588 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307E77C281862CF000E0588 /* UserInfoViewController.swift */; };
+		3307E7822818646D000E0588 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307E7812818646D000E0588 /* UserSession.swift */; };
+		3307E78428186966000E0588 /* UserInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307E78328186966000E0588 /* UserInfoViewModel.swift */; };
+		3307E78F281B0C6F000E0588 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3307E78E281B0C6F000E0588 /* SnapKit */; };
+		3307E792281B0C7D000E0588 /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3307E791281B0C7D000E0588 /* LinkKit */; };
+		3307E795281B1794000E0588 /* InstitutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307E794281B1794000E0588 /* InstitutionViewController.swift */; };
+		3307E797281B17B8000E0588 /* InstitutionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307E796281B17B8000E0588 /* InstitutionViewModel.swift */; };
+		3307E799281B1E1E000E0588 /* AccountInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307E798281B1E1E000E0588 /* AccountInfoTableViewCell.swift */; };
 		335F7C172811718A00E30A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F7C162811718A00E30A55 /* AppDelegate.swift */; };
 		335F7C1B2811718A00E30A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F7C1A2811718A00E30A55 /* ViewController.swift */; };
 		335F7C202811718C00E30A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335F7C1F2811718C00E30A55 /* Assets.xcassets */; };
@@ -28,10 +35,15 @@
 		33C0ABC928132C50005FB0D8 /* InvestmentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABC828132C50005FB0D8 /* InvestmentError.swift */; };
 		33C0ABCB281469C5005FB0D8 /* PlaidAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */; };
 		33C0ABD1281470C7005FB0D8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABD0281470C7005FB0D8 /* API.swift */; };
-		33C0ABD92816BEBD005FB0D8 /* InvestmentDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0ABD82816BEBD005FB0D8 /* InvestmentDataFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3307E77C281862CF000E0588 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		3307E7812818646D000E0588 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		3307E78328186966000E0588 /* UserInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewModel.swift; sourceTree = "<group>"; };
+		3307E794281B1794000E0588 /* InstitutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionViewController.swift; sourceTree = "<group>"; };
+		3307E796281B17B8000E0588 /* InstitutionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionViewModel.swift; sourceTree = "<group>"; };
+		3307E798281B1E1E000E0588 /* AccountInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoTableViewCell.swift; sourceTree = "<group>"; };
 		335F7C132811718A00E30A55 /* Plaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335F7C162811718A00E30A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335F7C1A2811718A00E30A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +67,6 @@
 		33C0ABC828132C50005FB0D8 /* InvestmentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentError.swift; sourceTree = "<group>"; };
 		33C0ABCA281469C5005FB0D8 /* PlaidAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidAPIManager.swift; sourceTree = "<group>"; };
 		33C0ABD0281470C7005FB0D8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
-		33C0ABD82816BEBD005FB0D8 /* InvestmentDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentDataFormatter.swift; sourceTree = "<group>"; };
-		810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plaid.debug.xcconfig"; path = "Target Support Files/Pods-Plaid/Pods-Plaid.debug.xcconfig"; sourceTree = "<group>"; };
-		9C24A1597D7957692879D863 /* Pods_Plaid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plaid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plaid.release.xcconfig"; path = "Target Support Files/Pods-Plaid/Pods-Plaid.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,20 +74,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAE7325CA02767362181F93 /* Pods_Plaid.framework in Frameworks */,
+				3307E78F281B0C6F000E0588 /* SnapKit in Frameworks */,
+				3307E792281B0C7D000E0588 /* LinkKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3307E793281B108C000E0588 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3307E798281B1E1E000E0588 /* AccountInfoTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		335F7C0A2811718A00E30A55 = {
 			isa = PBXGroup;
 			children = (
 				335F7C152811718A00E30A55 /* Plaid */,
 				335F7C142811718A00E30A55 /* Products */,
-				FE39A8BED3F0057D3FED74A3 /* Pods */,
-				847E28690A5C4930CAB69A2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,12 +109,12 @@
 		335F7C152811718A00E30A55 /* Plaid */ = {
 			isa = PBXGroup;
 			children = (
+				335F7C162811718A00E30A55 /* AppDelegate.swift */,
 				33C0ABD62816BE9C005FB0D8 /* Helpers */,
 				33C0ABCF281469FE005FB0D8 /* Controller */,
 				33C0ABCE281469F0005FB0D8 /* ViewModel */,
 				33C0ABCD281469D7005FB0D8 /* Resources */,
 				33C0ABAD28131BC1005FB0D8 /* Models */,
-				335F7C162811718A00E30A55 /* AppDelegate.swift */,
 			);
 			path = Plaid;
 			sourceTree = "<group>";
@@ -172,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				33C0ABA928131B03005FB0D8 /* ViewModel.swift */,
+				3307E78328186966000E0588 /* UserInfoViewModel.swift */,
+				3307E796281B17B8000E0588 /* InstitutionViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,7 +196,10 @@
 		33C0ABCF281469FE005FB0D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3307E793281B108C000E0588 /* Cells */,
 				335F7C1A2811718A00E30A55 /* ViewController.swift */,
+				3307E77C281862CF000E0588 /* UserInfoViewController.swift */,
+				3307E794281B1794000E0588 /* InstitutionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -187,35 +207,10 @@
 		33C0ABD62816BE9C005FB0D8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				33C0ABD72816BEAA005FB0D8 /* Formatter */,
 				33C0ABCC281469CA005FB0D8 /* API */,
+				3307E7812818646D000E0588 /* UserSession.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		33C0ABD72816BEAA005FB0D8 /* Formatter */ = {
-			isa = PBXGroup;
-			children = (
-				33C0ABD82816BEBD005FB0D8 /* InvestmentDataFormatter.swift */,
-			);
-			path = Formatter;
-			sourceTree = "<group>";
-		};
-		847E28690A5C4930CAB69A2F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C24A1597D7957692879D863 /* Pods_Plaid.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FE39A8BED3F0057D3FED74A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */,
-				C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,17 +220,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335F7C272811718C00E30A55 /* Build configuration list for PBXNativeTarget "Plaid" */;
 			buildPhases = (
-				8D341F55DB63E1FBE9078B45 /* [CP] Check Pods Manifest.lock */,
 				335F7C0F2811718A00E30A55 /* Sources */,
 				335F7C102811718A00E30A55 /* Frameworks */,
 				335F7C112811718A00E30A55 /* Resources */,
-				D1DAAEE15408423F4A485067 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Plaid;
+			packageProductDependencies = (
+				3307E78E281B0C6F000E0588 /* SnapKit */,
+				3307E791281B0C7D000E0588 /* LinkKit */,
+			);
 			productName = Plaid;
 			productReference = 335F7C132811718A00E30A55 /* Plaid.app */;
 			productType = "com.apple.product-type.application";
@@ -264,6 +261,10 @@
 				Base,
 			);
 			mainGroup = 335F7C0A2811718A00E30A55;
+			packageReferences = (
+				3307E78D281B0C6F000E0588 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3307E790281B0C7D000E0588 /* XCRemoteSwiftPackageReference "plaid-link-ios" */,
+			);
 			productRefGroup = 335F7C142811718A00E30A55 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,48 +286,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8D341F55DB63E1FBE9078B45 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Plaid-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1DAAEE15408423F4A485067 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Plaid/Pods-Plaid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Plaid/Pods-Plaid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Plaid/Pods-Plaid-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		335F7C0F2811718A00E30A55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -335,20 +294,25 @@
 				33C0ABB228131F90005FB0D8 /* Institution.swift in Sources */,
 				335F7C1B2811718A00E30A55 /* ViewController.swift in Sources */,
 				33C0ABB928132398005FB0D8 /* AccessTokenModel.swift in Sources */,
+				3307E797281B17B8000E0588 /* InstitutionViewModel.swift in Sources */,
+				3307E7822818646D000E0588 /* UserSession.swift in Sources */,
 				33C0ABB7281322DC005FB0D8 /* PublicTokenModel.swift in Sources */,
+				3307E78428186966000E0588 /* UserInfoViewModel.swift in Sources */,
 				33C0ABC528132627005FB0D8 /* Item.swift in Sources */,
 				33C0ABAC28131B92005FB0D8 /* LinkModel.swift in Sources */,
 				33C0ABAF28131BD4005FB0D8 /* LinkTokenModel.swift in Sources */,
 				33C0ABC928132C50005FB0D8 /* InvestmentError.swift in Sources */,
 				33C0ABAA28131B03005FB0D8 /* ViewModel.swift in Sources */,
-				33C0ABD92816BEBD005FB0D8 /* InvestmentDataFormatter.swift in Sources */,
 				33C0ABC7281327A2005FB0D8 /* Security.swift in Sources */,
 				33C0ABBE28132480005FB0D8 /* AccountInfo.swift in Sources */,
 				33C0ABBC28132469005FB0D8 /* Accounts.swift in Sources */,
 				33C0ABC328132572005FB0D8 /* Holding.swift in Sources */,
 				33C0ABCB281469C5005FB0D8 /* PlaidAPIManager.swift in Sources */,
 				33C0ABB428131FEA005FB0D8 /* InstitutionInfo.swift in Sources */,
+				3307E795281B1794000E0588 /* InstitutionViewController.swift in Sources */,
 				33C0ABC1281324C2005FB0D8 /* Balance.swift in Sources */,
+				3307E799281B1E1E000E0588 /* AccountInfoTableViewCell.swift in Sources */,
+				3307E77D281862CF000E0588 /* UserInfoViewController.swift in Sources */,
 				33C0ABD1281470C7005FB0D8 /* API.swift in Sources */,
 				335F7C172811718A00E30A55 /* AppDelegate.swift in Sources */,
 			);
@@ -486,7 +450,6 @@
 		};
 		335F7C282811718C00E30A55 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 810AB254F886966243A41973 /* Pods-Plaid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,7 +478,6 @@
 		};
 		335F7C292811718C00E30A55 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A72ED71D3AE45B0701D58D /* Pods-Plaid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -564,6 +526,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3307E78D281B0C6F000E0588 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		3307E790281B0C7D000E0588 /* XCRemoteSwiftPackageReference "plaid-link-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3307E78E281B0C6F000E0588 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3307E78D281B0C6F000E0588 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		3307E791281B0C7D000E0588 /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3307E790281B0C7D000E0588 /* XCRemoteSwiftPackageReference "plaid-link-ios" */;
+			productName = LinkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 335F7C0B2811718A00E30A55 /* Project object */;
 }

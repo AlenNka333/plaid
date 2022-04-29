@@ -12,15 +12,16 @@ import LinkKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let userSession = UserSession()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         window = UIWindow(frame: UIScreen.main.bounds)
 
-        let viewModel = ViewModel(manager: PlaidAPIManager(), data: LinkModel())
+        let viewModel = ViewModel(manager: PlaidAPIManager(), data: LinkModel(), session: userSession)
         let controller = ViewController()
         controller.viewModel = viewModel
-        window?.rootViewController = controller
+        window?.rootViewController = UINavigationController(rootViewController: controller)
         window?.makeKeyAndVisible()
 
         return true

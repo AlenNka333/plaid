@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LinkKit",
+        "repositoryURL": "https://github.com/plaid/plaid-link-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "c776e905e1983515d86e72ec717f6499ec259017",
+          "version": "2.5.1"
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "f222cbdf325885926566172f6f5f06af95473158",
+          "version": "5.6.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

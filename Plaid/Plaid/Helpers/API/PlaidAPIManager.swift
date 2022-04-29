@@ -36,23 +36,6 @@ class PlaidAPIManager {
         }
     }
 
-    enum Institutions {
-        case robinhood
-        case eTrade
-        case charles
-
-        var name: String {
-            switch self {
-            case .robinhood:
-                return "Robinhood"
-            case .eTrade:
-                return "E-Trade"
-            case .charles:
-                return "Charles Swchab"
-            }
-        }
-    }
-
     private let decoder: JSONDecoder = {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .iso8601
